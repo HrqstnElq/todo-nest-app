@@ -72,8 +72,8 @@ export default function TodoForm() {
 			)}
 
 			<div className="todo__items">
-				{todoItems.map((todoItem, index) => (
-					<TodoItem key={index} todoItem={todoItem} setRefresh={setRefresh} />
+				{todoItems.map((todoItem) => (
+					<TodoItem key={todoItem._id} todoItem={todoItem} setRefresh={setRefresh} />
 				))}
 			</div>
 		</div>
