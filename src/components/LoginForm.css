@@ -1,0 +1,30 @@
+.form {
+	width: 300px;
+	margin: auto;
+	margin-top: 10rem;
+}
+
+.form-control {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 1rem 0;
+}
+
+.form-control input {
+	padding: 0.3rem;
+}
+
+.button {
+	width: 100%;
+	padding: 0.5rem;
+
+	border: none;
+	border-radius: 5px;
+
+	color: #ffffff;
+	background-color: #6c5ce7;
+
+	font-weight: bold;
+	cursor: pointer;
+}

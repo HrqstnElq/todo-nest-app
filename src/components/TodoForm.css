@@ -1,0 +1,87 @@
+.todo {
+	margin: 2rem auto;
+	width: 450px;
+
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.todo__tags {
+	display: flex;
+	position: relative;
+}
+
+.tag {
+	cursor: pointer;
+	user-select: none;
+
+	width: 150px;
+	display: flex;
+	justify-content: center;
+
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px solid #2d3436;
+}
+
+.tag:hover {
+	background-color: #e2dfdf;
+}
+
+.tag__bottom-bar {
+	background-color: #d63031;
+	height: 5px;
+	width: 150px;
+
+	position: absolute;
+	bottom: 0;
+
+	transition: transform 0.2s linear;
+}
+
+.tag,
+.tag__bottom-bar {
+	border-radius: 10px 10px 0 0;
+}
+
+.tag__bottom-bar.active {
+	transform: translateX(150px);
+}
+
+.tag__bottom-bar.done {
+	transform: translateX(300px);
+}
+
+.todo__form {
+	margin: 1rem 0;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.form__input,
+.form__button--add {
+	padding: 0.7rem;
+
+	border-radius: 5px;
+	border: 1px solid #2d3436;
+}
+
+.form__input {
+	width: 70%;
+}
+
+.form__button--add {
+	width: 20%;
+	background-color: #6c5ce7;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	border: none;
+	color: #ffffff;
+}
+
+.todo__items,
+.todo__form {
+	width: 100%;
+}

@@ -1,0 +1,21 @@
+.btn-logout {
+	cursor: pointer;
+
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+
+	color: #ffffff;
+	background-color: #6c5ce7;
+	box-shadow: 0 0 10px #a29bfe;
+
+	border-radius: 1000px;
+	border: none;
+
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.btn-logout:focus {
+	outline: none;
+}
