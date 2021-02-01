@@ -1,45 +1,40 @@
 .todo-item:hover {
-  background-color: #f1f0f0d5;
+	background-color: #f1f0f0d5;
 }
 
 .todo-item,
 .todo-item > * {
-  display: flex;
+	display: flex;
 }
 
 .todo-item {
-  margin: 1rem 0;
-  padding: 0.7rem;
+	margin: 1rem 0;
+	padding: 0.7rem;
 
-  border-radius: 5px;
-  justify-content: space-between;
+	border-radius: 5px;
+	justify-content: space-between;
 }
 
 .item__checkbox {
-  cursor: pointer;
-  margin-top: 5px;
-  margin-right: 20px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-right: 20px;
 }
 
 .item__content.complete {
-  text-decoration: line-through;
-  opacity: 0.7;
+	text-decoration: line-through;
+	opacity: 0.7;
 }
 
 .btn {
-  cursor: pointer;
-  margin: 0 0.5rem;
+	cursor: pointer;
+	margin: 0 0.5rem;
 }
 
 .btn--delete {
-  color: #d63031;
+	color: #d63031;
 }
 
 .btn--edit {
-  color: #fdcb6e;
-}
-
-.formEdit {
-  background-color: #e6e4e0;
-  border: 1px #4d3535 dashed;
+	color: #fdcb6e;
 }
