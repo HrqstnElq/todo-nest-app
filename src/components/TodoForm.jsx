@@ -42,7 +42,7 @@ export default function TodoForm() {
 				}
 				setTodoItems(todoItems);
 			})
-			.catch(() => {
+			.catch((err) => {
 				window.localStorage.removeItem("todo-nest-token");
 				window.location.reload();
 			});
